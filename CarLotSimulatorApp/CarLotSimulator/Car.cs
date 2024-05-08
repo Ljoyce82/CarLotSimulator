@@ -41,11 +41,12 @@ namespace CarLotSimulator
             Make = make;
             Model = model;
             IsDriveable = true;
+            CarLot.numberOfCars++;
         }
 
         public Car()
         {
-
+            CarLot.numberOfCars++;
         }
     }
 

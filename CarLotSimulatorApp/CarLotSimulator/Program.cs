@@ -27,13 +27,19 @@ namespace CarLotSimulator
             carOne.Year = 2077;
             carOne.IsDriveable = true;
 
+            Console.WriteLine($"Numbers of cars in our lot: {CarLot.numberOfCars}");
+
             carLot.BadJimsCarLot.Add(carOne);
 
             var carTwo = new Car() { Make = "Rayfield", Model = "Caliburn", Year = 2077, IsDriveable = true };
 
+            Console.WriteLine($"Numbers of cars in our lot: {CarLot.numberOfCars}");
+
             carLot.BadJimsCarLot.Add(carTwo);
 
             var carThree = new Car(2077, "Quadra Type-66", "Javelina", true);
+
+            Console.WriteLine($"Numbers of cars in our lot: {CarLot.numberOfCars}");
 
             carLot.BadJimsCarLot.Add(carThree);
 

@@ -8,8 +8,8 @@ namespace CarLotSimulator
 {
     public class CarLot
     {
+        public static int numberOfCars;
         public List<Car> BadJimsCarLot {  get; set; } = new List<Car>();
-
         public void SaleCars()
         {
             foreach (var car in BadJimsCarLot)
